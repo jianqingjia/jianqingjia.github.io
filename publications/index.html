@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Anthony Platanios | publications</title>
-  <meta name="description" content="Personal website of Anthony Platanios.">
+  <meta name="description" content="Personal website of Jianqing Jia.">
 
   <!-- Fonts and Icons -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" />
@@ -24,60 +24,47 @@
   <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
     <div class="container-fluid p-0">
       
-        <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Anthony</span> Platanios</a>
+        <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Jianqing</span> Jia</a>
       
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link" href="/">
               about
               
             </a>
           </li>
-          
             
           
             
-              <li class="nav-item ">
-                  <a class="nav-link" href="/cv/">
-                    cv
-                    
-                  </a>
-              </li>
-            
-          
-            
-          
-            
-              <li class="nav-item ">
-                  <a class="nav-link" href="/projects/">
-                    projects
-                    
-                  </a>
-              </li>
-            
-          
-            
-              <li class="nav-item navbar-active font-weight-bold">
-                  <a class="nav-link" href="/publications/">
-                    publications
-                    
-                      <span class="sr-only">(current)</span>
-                    
-                  </a>
-              </li>
-            
-          
-            
-              <li class="nav-item ">
+              <li class="nav-item">
                   <a class="nav-link" href="/teaching/">
                     teaching
                     
                   </a>
               </li>
+
+
+
+              <li class="nav-item  navbar-active font-weight-bold">
+                <a class="nav-link" href="/publications/">
+                  research
+                  <span class="sr-only">(current)</span>
+                  
+                </a>
+            </li>
+
+
+
+              <li class="nav-item ">
+                <a class="nav-link" href="/assets/pdf/JianqingJia_cvOTA.pdf">
+                  cv
+                  
+                </a>
+            </li>
             
           
             
@@ -98,13 +85,77 @@
   <div class="content">
     
   <h1>publications</h1>
-  <h6><span>*</span> denotes equal contribution and joint lead authorship.</h6>
 
+
+
+  <li><div class="row m-0 mt-3 p-0">
+    <div class="col-sm-1 p-0 abbr">
+      
+        
+          <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;" href="https://www.sciencedirect.com/journal/virtual-reality-and-intelligent-hardware" target="_blank">
+            VRIH
+          </a>
+        
+      
+    </div>
+    <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+      
+      <div id="StengelEskin-2022-troubling_quirk" class="col p-0">
+        <h5 class="title mb-0">PartLabeling: A Label Management Framework in 3D Space.</h5>
+        <div class="author">
+          <nobr><a href="https://selezovikj.blogspot.com/" target="_blank">Semir Elezovikj</a>,</nobr>
+                    <nobr><a href="https://jianqingjia.github.io/" target="_blank">Jianqing Jia</a>,</nobr>
+                    <nobr><a href="https://cis.temple.edu/~cctan/" target="_blank">Chiu C Tan</a>,</nobr>
+                and
+                    <nobr><a href="https://www3.cs.stonybrook.edu/~hling/" target="_blank">Haibin Ling</a>.</nobr>
+        </div>
+  
+        <div>
+          <p class="periodical font-italic">
+              In Virtual Reality & Intelligent Hardware
+              2023.  
+          </p>
+        </div>
+
+        <div class="col p-0">
+            <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#StengelEskin-2022-troubling_quirk-abstract" role="button" aria-expanded="false" aria-controls="StengelEskin-2022-troubling_quirk-abstract">Abstract</a>
+            <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/stengel_eskin_2022_troubling_quirk/paper.pdf" target="_blank">PDF</a>
+            <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/microsoft/nlu-incremental-symbol-learning" target="_blank">Code</a>
+          <!-- 
+            <div
+              class="__dimensions_badge_embed__"
+              data-doi="10.18653/v1/2022.emnlp-main.789"
+              data-hide-zero-citations="true"
+              data-style="small_rectangle"
+              data-legend="hover-right"
+              style="display: inline-block; margin-bottom: 10px;"
+            ></div>
+           -->
+        </div>
+      
+        
+        <div class="col mt-2 p-0">
+          <div id="StengelEskin-2022-troubling_quirk-abstract" class="collapse">
+            <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+              In natural language understanding (NLU) production systems, users’ evolving needs necessitate the addition of new features over time, indexed by new symbols added to the meaning representation space. This requires additional training data and results in ever-growing datasets. We present the first systematic investigation into this incremental symbol learning scenario. Our analyses reveal a troubling quirk in building (broad-coverage) NLU systems: as the training dataset grows, more data is needed to learn new symbols, forming a vicious cycle. We show that this trend holds for multiple mainstream models on two common NLU tasks: intent recognition and semantic parsing. Rejecting class imbalance as the sole culprit, we reveal that the trend is closely associated with an effect we call source signal dilution, where strong lexical cues for the new symbol become diluted as the training dataset grows. Selectively dropping training examples to prevent dilution often reverses the trend, showing the over-reliance of mainstream neural NLU models on simple lexical cues and their lack of contextual understanding.
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </li>
+
+
+<!-- new -->
 
 
 <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
     <div class="col-sm-11 p-0">
-      <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
+      <ol class="bibliography">
+        
+<li><div class="row m-0 mt-3 p-0">
   <div class="col-sm-1 p-0 abbr">
     
       
@@ -3744,7 +3795,7 @@
 
   <!-- Footer -->
   <footer>
-    &copy; Copyright 2024 Anthony Platanios.
+    &copy; Copyright 2024 Jianqing Jia.
     
     
   </footer>
