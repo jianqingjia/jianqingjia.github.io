@@ -109,17 +109,17 @@
           <div id="Jianqing_Jia_2024_Sparse" class="col p-0">
             <h5 class="title mb-0">Sparse Recovery: The Square of $\ell_1/\ell_2$ Norms.</h5>
             <div class="author">
-                  <nobr><a href="https://selezovikj.blogspot.com/" target="_blank">Semir Elezovikj</a>,</nobr>
                   <nobr><em>Jianqing Jia</em>,</nobr>
-                  <nobr><a href="https://cis.temple.edu/~cctan/" target="_blank">Chiu C Tan</a>,</nobr>
+                  <nobr><a href="https://scholar.google.com/citations?user=f1WPBE8AAAAJ&hl=en" target="_blank">Ashley Prater-Bennette</a>,</nobr>
+                  <nobr><a href="https://artsandsciences.syracuse.edu/people/faculty/shen-lixin/" target="_blank"> Lixin Shen</a>,</nobr>
               and
-                  <nobr><a href="https://www3.cs.stonybrook.edu/~hling/" target="_blank">Haibin Ling</a>.</nobr>
+                  <nobr><a href="https://scholar.google.com/citations?user=nTAzuk4AAAAJ&hl=en" target="_blank">Erin E. Tripp</a>.</nobr>
             </div>
       
             <div>
               <p class="periodical font-italic">
-                  In Computer Graphics International (CGI), Shanghai, 
-                  2023.  
+                  Journal of Scientific Computing (revision under review), 
+                  2024.  
               </p>
             </div>
 
@@ -141,18 +141,11 @@
           
             
             <div class="col mt-2 p-0">
-              <div id="Semir_Elezovikj_2022_Partlabeling_abstract" class="collapse">
+              <div id="Jianqing_Jia_2024_Sparse_abstract" class="collapse">
                 <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-                  In this work, we focus on the label layout problem: specifying the positions of overlaid virtual annotations in Virtual/Augmented Reality scenarios.
-                   Designing a layout of labels that does not violate domain-specific design requirements, while at the same time satisfying aesthetic and functional principles of good design,
-                    can be a daunting task even for skilled visual designers. Presenting the annotations in 3D object space instead of projection space, allows for the preservation of spatial and depth cues.
-                     This results in stable layouts in dynamic environments, since the annotations are anchored in 3D space. In this paper we make two major contributions.
-                      First, we propose a technique for managing the layout and rendering of annotations in Virtual/Augmented Reality scenarios by manipulating the annotations directly in 3D space.
-                       For this, we make use of Artificial Potential Fields and use 3D geometric constraints to adapt them in 3D space.
-                        Second, we introduce PartLabeling: an open source platform in the form of a web application that acts as a much-needed generic framework allowing to easily add labeling algorithms and 3D models.
-                         This serves as a catalyst for researchers in this field to make their algorithms and implementations publicly available, as well as ensure research reproducibility.
-                          The PartLabeling framework relies on a dataset that we generate as a subset of the original PartNet dataset [17] consisting of models suitable for the label management task.
-                           The dataset consists of 1,000 3D models with part annotations.
+                  This paper introduces a nonconvex approach for sparse signal recovery, proposing a novel model termed the $\tau_2$-model, which utilizes the squared $\ell_1/\ell_2$ norms for this purpose. Our model offers an advancement over the $\ell_0$ norm, which is often computationally intractable and less effective in practical scenarios. Grounded in the concept of effective sparsity, our approach robustly measures the number of significant coordinates in a signal, making it a powerful alternative for sparse signal estimation. The $\tau_2$-model is particularly advantageous due to its computational efficiency and practical applicability.
+
+                  We detail two accompanying algorithms based on Dinkelbach’s procedure and a difference of convex functions strategy. The first algorithm views the model as a linear-constrained quadratic programming problem in noiseless scenarios and as a quadratic-constrained quadratic programming problem in noisy scenarios. The second algorithm, capable of handling both noiseless and noisy cases, is based on the alternating direction linearized proximal method of multipliers. We also explore the model's properties, including the existence of solutions under certain conditions, and discuss the convergence properties of the algorithms. Numerical experiments with various sensing matrices validate the effectiveness of our proposed model.
                 </div>
               </div>
             </div>
