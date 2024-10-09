@@ -20,6 +20,14 @@
   <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+  </script>
+  
 
 </head>
 <body>
@@ -143,7 +151,7 @@
             <div class="col mt-2 p-0">
               <div id="Jianqing_Jia_2024_Sparse_abstract" class="collapse">
                 <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-                  This paper introduces a nonconvex approach for sparse signal recovery, proposing a novel model termed the $\tau_2$-model, which utilizes the squared $\ell_1/\ell_2$ norms for this purpose. Our model offers an advancement over the $\ell_0$ norm, which is often computationally intractable and less effective in practical scenarios. Grounded in the concept of effective sparsity, our approach robustly measures the number of significant coordinates in a signal, making it a powerful alternative for sparse signal estimation. The $\tau_2$-model is particularly advantageous due to its computational efficiency and practical applicability.
+                  This paper introduces a nonconvex approach for sparse signal recovery, proposing a novel model termed the \(\tau_2\)-model, which utilizes the squared $\ell_1/\ell_2$ norms for this purpose. Our model offers an advancement over the $\ell_0$ norm, which is often computationally intractable and less effective in practical scenarios. Grounded in the concept of effective sparsity, our approach robustly measures the number of significant coordinates in a signal, making it a powerful alternative for sparse signal estimation. The $\tau_2$-model is particularly advantageous due to its computational efficiency and practical applicability.
 
                   We detail two accompanying algorithms based on Dinkelbach’s procedure and a difference of convex functions strategy. The first algorithm views the model as a linear-constrained quadratic programming problem in noiseless scenarios and as a quadratic-constrained quadratic programming problem in noisy scenarios. The second algorithm, capable of handling both noiseless and noisy cases, is based on the alternating direction linearized proximal method of multipliers. We also explore the model's properties, including the existence of solutions under certain conditions, and discuss the convergence properties of the algorithms. Numerical experiments with various sensing matrices validate the effectiveness of our proposed model.
                 </div>
